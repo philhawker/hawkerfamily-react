@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import hawkerfamilylogo from "../../../static/assets/images/hawkerfamilylogo.jpg"
+import flowerbg from "../../../static/assets/images/flowerbg.jpg"
 
 export default class Sassafras extends Component {
   constructor(props) {
@@ -21,16 +21,9 @@ export default class Sassafras extends Component {
                     <div class="wrap">
                       <div class="responsive-menu-icon"></div>
                       <ul id="menu-secondary-menu" class="menu genesis-nav-menu menu-secondary responsive-menu">
-                        <li id="menu-item-708"
-                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-708"><a
-                            href="https://hawkerfamily.com/shop/" itemprop="url"><span itemprop="name">Shop</span></a></li>
-                        <li id="menu-item-706"
-                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-706"><a
-                            href="https://hawkerfamily.com/checkout/" itemprop="url"><span
-                              itemprop="name">Checkout</span></a></li>
-                        <li id="menu-item-707"
-                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-707"><a
-                            href="https://hawkerfamily.com/cart/" itemprop="url"><span itemprop="name">Cart</span></a></li>
+
+
+
                         <li class="search"><a id="main-nav-search-link" class="icon-search"></a>
                           <div class="search-div">
                             <form class="search-form" method="get" action="https://hawkerfamily.com/" role="search"
@@ -48,8 +41,7 @@ export default class Sassafras extends Component {
                     </div>
                   </nav>
                   <div class="title-area">
-                    <p class="site-title" itemprop="headline"><a href="https://hawkerfamily.com/">Hawker Family</a></p>
-                    <p class="site-description" itemprop="description">Your SUPER-powered WP Engine Site</p>
+                    <p class="site-title" itemprop="headline"><a href="/">Hawker Family</a></p>
                   </div>
                 </div>
               </header>

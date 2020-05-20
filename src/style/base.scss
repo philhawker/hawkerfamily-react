@@ -1,8 +1,14 @@
 body {
     margin: 0px;
     font-family: "Titillium Web", sans-serif;
+    .custom-background {
+        background-image: url("../../static/assets/images/flowerbg.jpg");
+        background-position: left top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
 }
-
 .container {
     display: grid;
     grid-template-columns: 1fr;
