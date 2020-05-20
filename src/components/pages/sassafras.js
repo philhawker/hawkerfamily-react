@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import hawkerfamilylogo from "../../../static/assets/images/hawkerfamilylogo.jpg"
 
 export default class Sassafras extends Component {
   constructor(props) {
@@ -13,13 +14,46 @@ export default class Sassafras extends Component {
         <div className="site-container">
           <div className="wrap1">
             <div className="wrap2">
-              <div>
-                <div class="title-area">
-                  <p class="site-title" itemprop="headline">
-                    <a href="https://hawkerfamily.com/">Hawker Family</a>
-                  </p>
+              <header class="site-header" itemscope="" itemtype="https://schema.org/WPHeader">
+                <div class="wrap">
+                  <nav class="nav-secondary" aria-label="Secondary" itemscope=""
+                    itemtype="https://schema.org/SiteNavigationElement">
+                    <div class="wrap">
+                      <div class="responsive-menu-icon"></div>
+                      <ul id="menu-secondary-menu" class="menu genesis-nav-menu menu-secondary responsive-menu">
+                        <li id="menu-item-708"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-708"><a
+                            href="https://hawkerfamily.com/shop/" itemprop="url"><span itemprop="name">Shop</span></a></li>
+                        <li id="menu-item-706"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-706"><a
+                            href="https://hawkerfamily.com/checkout/" itemprop="url"><span
+                              itemprop="name">Checkout</span></a></li>
+                        <li id="menu-item-707"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-707"><a
+                            href="https://hawkerfamily.com/cart/" itemprop="url"><span itemprop="name">Cart</span></a></li>
+                        <li class="search"><a id="main-nav-search-link" class="icon-search"></a>
+                          <div class="search-div">
+                            <form class="search-form" method="get" action="https://hawkerfamily.com/" role="search"
+                              itemprop="potentialAction" itemscope="" itemtype="https://schema.org/SearchAction">
+                              <input
+                                class="search-form-input" type="search" name="s" id="searchform-1"
+                                placeholder="Search this website" itemprop="query-input" />
+                              <input class="search-form-submit"
+                                type="submit" value="Search" />
+                            </form>
+                          </div>
+                        </li>
+                        <aside class="widget-area"></aside>
+                      </ul>
+                    </div>
+                  </nav>
+                  <div class="title-area">
+                    <p class="site-title" itemprop="headline"><a href="https://hawkerfamily.com/">Hawker Family</a></p>
+                    <p class="site-description" itemprop="description">Your SUPER-powered WP Engine Site</p>
+                  </div>
                 </div>
-              </div>
+              </header>
+
               {/* NAVBAR START */}
               <nav class="nav-primary" aria-label="Main" itemscope="" itemtype="https://schema.org/SiteNavigationElement">
                 <div class="wrap">
