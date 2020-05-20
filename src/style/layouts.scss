@@ -5,6 +5,12 @@
   display: grid;
   grid-template-columns: 1fr;
 
+  background-image: url("../../static/assets/images/flowerbg.jpg");
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
   .right-column {
     display: flex;
     justify-content: center;
