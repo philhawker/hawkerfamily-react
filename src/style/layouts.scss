@@ -2,6 +2,8 @@
   width: 100vw;
   grid-template-columns: 1fr 1fr;
   height: calc(120vh - 100px);
+  display: grid;
+  grid-template-columns: 1fr;
 
   .right-column {
     display: flex;
