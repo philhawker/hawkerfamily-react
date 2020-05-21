@@ -25,7 +25,6 @@ export default function () {
                         backgroundColor: "transparent",
                         backgroundImage: `url(${logoletters})`,
                         backgroundRepeat: "no-repeat",
-                        marginTop: "-50px"
                       }}></a>
                   </p>
                 </div>

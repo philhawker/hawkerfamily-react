@@ -1677,7 +1677,7 @@ div.easyrecipe div.ERSSavePrint .ERSSaveBtnSpan .ERSSaveBtn {
   font-weight: 700;
   padding: 8px 0;
   text-align: center;
-  width: 700px;
+  width: 900px;
   margin-bottom: 24px;
 }
 
@@ -1686,10 +1686,11 @@ div.easyrecipe div.ERSSavePrint .ERSSaveBtnSpan .ERSSaveBtn {
 }
 
 .site-title {
-  font-size: 6rem;
+  font-size: 7rem;
   font-weight: 600;
-  // line-height: 1.5;
-  margin: 70px auto;
+  line-height: 1.5;
+  margin-top: 70px;
+  letter-spacing: 0.05em;
 }
 
 .site-title a,
@@ -1724,8 +1725,10 @@ div.easyrecipe div.ERSSavePrint .ERSSaveBtnSpan .ERSSaveBtn {
 }
 
 .logo-letters {
-  width: 300px !important;
-  position: center !important;
+  width: 400px !important;
+  position: contain !important;
+  margin-top: -40px;
+  margin-bottom: -40px;
 }
 .header-image .site-title > a {
   background-position: center;
