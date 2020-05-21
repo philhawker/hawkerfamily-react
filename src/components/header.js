@@ -38,17 +38,17 @@ export default function () {
                 </div>
                 <ul id="menu-primary-menu-2" class="menu genesis-nav-menu menu-primary responsive-menu">
                   <li id="menu-item-735" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-735">
-                    <a href="https://hawkerfamily.com" aria-current="page" itemprop="url">
+                    <a href="/" >
                       <span itemprop="name">Home</span>
                     </a>
                   </li>
                   <li id="menu-item-736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-736">
-                    <a href="https://hawkerfamily.com/aboutus" itemprop="url">
+                    <a href="/" itemprop="url">
                       <span itemprop="name">About Us</span>
                     </a>
                   </li>
                   <li id="menu-item-737" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-737">
-                    <a href="https://hawkerfamily.com/our" itemprop="url">
+                    <a href="/" itemprop="url">
                       <span itemprop="name">Our Faith</span>
                     </a>
                   </li>
