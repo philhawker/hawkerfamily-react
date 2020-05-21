@@ -5,41 +5,20 @@ export default function () {
 
   return (
     <div className="content-page-wrapper background home blog custom-header header-image header-full-width content-sidebar genesis-breadcrumbs-hidden genesis-footer-widgets-visible front-page">
+      {/* LOGO AND SITE HEADING START */}
       <a href="/" class="to-top" title="Back To Top">Top</a>
       <div className="site-container">
-        <div className="wrap1">
+        <div className="wrap1" style={{ backgroundImage: "url(../)" }}>
           <div className="wrap2">
-            <header class="site-header" itemscope="" itemtype="https://schema.org/WPHeader">
+            <header class="site-header" >
               <div class="wrap">
-                <nav class="nav-secondary" aria-label="Secondary" itemscope=""
-                  itemtype="https://schema.org/SiteNavigationElement">
-                  <div class="wrap">
-                    <div class="responsive-menu-icon"></div>
-                    <ul id="menu-secondary-menu" class="menu genesis-nav-menu menu-secondary responsive-menu">
 
-
-
-                      <li class="search"><a id="main-nav-search-link" class="icon-search"></a>
-                        <div class="search-div">
-                          <form class="search-form" method="get" action="https://hawkerfamily.com/" role="search"
-                            itemprop="potentialAction" itemscope="" itemtype="https://schema.org/SearchAction">
-                            <input
-                              class="search-form-input" type="search" name="s" id="searchform-1"
-                              placeholder="Search this website" itemprop="query-input" />
-                            <input class="search-form-submit"
-                              type="submit" value="Search" />
-                          </form>
-                        </div>
-                      </li>
-                      <aside class="widget-area"></aside>
-                    </ul>
-                  </div>
-                </nav>
                 <div class="title-area">
                   <p class="site-title" itemprop="headline"><a href="/">Hawker Family</a></p>
                 </div>
               </div>
             </header>
+            {/* // LOGO AND SITE HEADING START END */}
 
             {/* NAVBAR START */}
             <nav class="nav-primary" aria-label="Main" itemscope="" itemtype="https://schema.org/SiteNavigationElement">

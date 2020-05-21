@@ -6,7 +6,6 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./components/app";
 import reducers from "./reducers";
 import ReactBreakpoints from "react-breakpoints"
-import { RemoveScrollBar } from 'react-remove-scroll-bar'
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
@@ -26,7 +25,6 @@ function main() {
     ReactDOM.render(
         <Provider store={createStoreWithMiddleware(reducers)}>
             <ReactBreakpoints breakpoints={breakpoints}>
-                <RemoveScrollBar />
                 <BrowserRouter>
                     <App />
                 </BrowserRouter>
