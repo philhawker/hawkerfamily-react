@@ -1723,11 +1723,12 @@ div.easyrecipe div.ERSSavePrint .ERSSaveBtnSpan .ERSSaveBtn {
   width: 75%;
 }
 
+.logo-letters {
+  width: 300px !important;
+}
 .header-image .site-title > a {
-  background-position: center center;
+  background-position: center;
   background-size: contain;
-  float: left;
-  min-height: 200px;
   width: 100%;
 }
 

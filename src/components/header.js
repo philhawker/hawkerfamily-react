@@ -17,11 +17,12 @@ export default function () {
 
                 </nav>
                 <div class="title-area" >
-                  <p class="site-title" >
+                  <p class="site-title" style={{ display: "flex", flexDirection: "column" }} >
                     Hawker Family
                     <a
-                      className="header-image"
+                      className="header-image logo-letters"
                       style={{
+                        backgroundColor: "transparent",
                         backgroundImage: `url(${logoletters})`,
                         backgroundRepeat: "no-repeat",
                       }}></a>
