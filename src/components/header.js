@@ -1,5 +1,5 @@
 import React from "react"
-
+import logo from "../../static/assets/images/familylogo.jpg"
 
 export default function () {
 
@@ -15,8 +15,8 @@ export default function () {
                   itemtype="https://schema.org/SiteNavigationElement">
 
                 </nav>
-                <div class="title-area">
-                  <p class="site-title" itemprop="headline"><a href="/">Hawker Family</a></p>
+                <div class="title-area" >
+                  <p class="site-title" itemprop="headline" ><a href="/" style={{ backgroundImage: `url(${logo})`, backgroundRepeat: "no-repeat" }}>Hawker Family</a></p>
                 </div>
               </div>
             </header>
