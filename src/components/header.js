@@ -5,20 +5,21 @@ export default function () {
 
   return (
     <div className="content-page-wrapper background home blog custom-header header-image header-full-width content-sidebar genesis-breadcrumbs-hidden genesis-footer-widgets-visible front-page">
-      {/* LOGO AND SITE HEADING START */}
       <a href="/" class="to-top" title="Back To Top">Top</a>
       <div className="site-container">
         <div className="wrap1" style={{ backgroundImage: "url(../)" }}>
           <div className="wrap2">
-            <header class="site-header" >
+            <header class="site-header" itemscope="" itemtype="https://schema.org/WPHeader">
               <div class="wrap">
+                <nav class="nav-secondary" aria-label="Secondary" itemscope=""
+                  itemtype="https://schema.org/SiteNavigationElement">
 
+                </nav>
                 <div class="title-area">
                   <p class="site-title" itemprop="headline"><a href="/">Hawker Family</a></p>
                 </div>
               </div>
             </header>
-            {/* // LOGO AND SITE HEADING START END */}
 
             {/* NAVBAR START */}
             <nav class="nav-primary" aria-label="Main" itemscope="" itemtype="https://schema.org/SiteNavigationElement">
