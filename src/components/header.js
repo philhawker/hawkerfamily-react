@@ -51,7 +51,7 @@ export default function () {
           </ul>
         </div>
       </nav>
-
+      <SimpleSlider />
 
       {/* NAVBAR END */}
 

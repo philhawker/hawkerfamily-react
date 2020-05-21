@@ -12,13 +12,12 @@ export default class Sassafras extends Component {
   render() {
     return (
 
-      <div className="content-page-wrapper background home blog custom-header header-image header-full-width content-sidebar genesis-breadcrumbs-hidden genesis-footer-widgets-visible front-page">
+      <div className="content-page-wrapper background home blog custom-header header-image header-full-width  front-page">
         <a href="/" className="to-top" title="Back To Top">Top</a>
-        <div className="site-container">
-          <div className="wrap1" style={{ backgroundImage: "url(../)" }}>
+        <div className="site-container" style={{ backgroundImage: "url(../)" }} >
+          <div className="wrap1" >
             <div className="wrap2">
               <Header />
-              <SimpleSlider />
             </div>
           </div>
         </div>
