@@ -1,6 +1,5 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import contactPagePicture from '../../../static/assets/images/bio/handholding.jpg'
 
 export default function () {
     return (
