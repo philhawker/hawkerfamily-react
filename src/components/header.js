@@ -1,5 +1,6 @@
 import React from "react"
 import logo from "../../static/assets/images/familylogo.jpg"
+import logoletters from "../../static/assets/images/familylogoletters.jpg"
 
 export default function () {
 
@@ -16,7 +17,15 @@ export default function () {
 
                 </nav>
                 <div class="title-area" >
-                  <p class="site-title" itemprop="headline" ><a href="/" style={{ backgroundImage: `url(${logo})`, backgroundRepeat: "no-repeat" }}>Hawker Family</a></p>
+                  <p class="site-title" >
+                    Hawker Family
+                    <a
+                      className="header-image"
+                      style={{
+                        backgroundImage: `url(${logoletters})`,
+                        backgroundRepeat: "no-repeat",
+                      }}></a>
+                  </p>
                 </div>
               </div>
             </header>
