@@ -20,11 +20,12 @@ export default function () {
                   <p class="site-title" style={{ display: "flex", flexDirection: "column" }} >
                     Hawker Family
                     <a
-                      className="header-image logo-letters"
+                      className="header-image logo-letters site-title"
                       style={{
                         backgroundColor: "transparent",
                         backgroundImage: `url(${logoletters})`,
                         backgroundRepeat: "no-repeat",
+                        marginTop: "-50px"
                       }}></a>
                   </p>
                 </div>
